@@ -10,7 +10,8 @@ object Deps {
     const val materialDesign = "com.google.android.material:material:${Versions.materialDesign}"
     const val coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines}"
     const val volley = "com.android.volley:volley:${Versions.volley}"
-    const val moshi = "com.squareup.moshi:moshi-kotlin:${Versions.moshi}"
+    const val moshi = "com.squareup.moshi:moshi:${Versions.moshi}"
+    const val moshiKotlin = "com.squareup.moshi:moshi-kotlin:${Versions.moshi}"
     const val junit = "junit:junit:${Versions.junit}"
 
     object AndroidX {

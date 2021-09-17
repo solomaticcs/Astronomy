@@ -20,7 +20,7 @@ class PictureListDataSource {
             { response ->
                 try {
                     val moshi = Moshi.Builder()
-                        .add(KotlinJsonAdapterFactory())
+                        .addLast(KotlinJsonAdapterFactory())
                         .build()
                     val jsonAdapter = moshi.adapter(AstronomyModel::class.java)
                     val list = mutableListOf<AstronomyModel>()

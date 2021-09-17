@@ -54,6 +54,7 @@ dependencies {
     implementation(Deps.coroutines)
     implementation(Deps.volley)
     implementation(Deps.moshi)
+    implementation(Deps.moshiKotlin)
     testImplementation(Deps.junit)
     androidTestImplementation(Deps.AndroidX.testExtJunit)
     androidTestImplementation(Deps.AndroidX.testEspresso)
